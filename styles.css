@@ -1,6 +1,96 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: blue;
+; 
+/* references aside element, targets the class "more-info" and says that any image contained inside needs has these properties */
+html {
+  
+    background-color: goldenrod; margin-left:10;
+}
+p {
+  margin-left:10px;
+}
+header.page-header {
+      border: solid 1px black;
+      /* background-image: url("/images/Xanadu_on_Map_of_Asia.JPG"); */
+      padding: 1rem;
+      background: lightgray;
+     }
+h1,h2,h3,h4,h5,h6 {
+      font-family:sans-serif;
+}
+.page-header h1 {
+      margin-bottom: 0;
+}
+.page-header p {
+      margin-top: 0;
+      text-indent: 10px;
+      color:darkslategray;
+      font-family:
+}
+.page-header small {
+      font-size: medium;
+}
+
+body { 
+      background-image: url("/images/Xanadu_on_Map_of_Asia.JPG");
+      /* background: url("/images/sand.jpg"); */
+      background-size: cover;
+      font-family:serif;
+      width: auto;
+      margin-left:50px;
+      margin-right: 50pt;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      overflow-x: scroll;
+
+}
+h2 { /*can have multiple selectors separated by commas - h1, h2, h3... */
+      
+      margin-left: 10px;
+}
+
+aside.more-info img {
+      width:350px;
+      height: auto;
+     
+}
+aside.more-info {
+      border: solid 1px black;
+      background: lightgray;
+}
+.info-links {
+      list-style-type:none;
+      font-style: italic;
+}
+.social-links {
+      list-style-type:none;
+      font-style: italic;
+}
+/*for referencing ID use # instead of class . */
+section#content {
+      border: solid 1px black;
+      background: lightgray;
+}
+.poem {
+      list-style-type: none;
+}
+
+.poem {
+      font-size: large;
+      line-height: 1.5;
+}
+.page-footer {
+      border: solid 1px black;
+      background: lightgray;
+      list-style-type:none;
+}
+
+/* the following is wrong, it's not showing correctly */
+.citation {
+      list-style-type:none;
+      font-style:italic;
+}
+.page-credits {
+      font-style: italic;
 }

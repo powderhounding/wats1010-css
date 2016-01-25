@@ -4,15 +4,15 @@
 ; 
 /* references aside element, targets the class "more-info" and says that any image contained inside needs has these properties */
 html {
-  
-    background-color: goldenrod; margin-left:10;
+      width:700px;
+      spacing:10px;
+      background-image: url("/images/Xanadu_on_Map_of_Asia.JPG");
 }
 p {
-  margin-left:10px;
+      margin-left:10px;
 }
 header.page-header {
       border: solid 1px black;
-      /* background-image: url("/images/Xanadu_on_Map_of_Asia.JPG"); */
       padding: 1rem;
       background: lightgray;
      }
@@ -34,7 +34,6 @@ h1,h2,h3,h4,h5,h6 {
 
 body { 
       background-image: url("/images/Xanadu_on_Map_of_Asia.JPG");
-      /* background: url("/images/sand.jpg"); */
       background-size: cover;
       font-family:serif;
       width: auto;

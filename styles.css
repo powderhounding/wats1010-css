@@ -4,9 +4,8 @@
 ; 
 /* references aside element, targets the class "more-info" and says that any image contained inside needs has these properties */
 html {
-      width:700px;
       spacing:10px;
-      background-image: url("/images/Xanadu_on_Map_of_Asia.JPG");
+      
 }
 p {
       margin-left:10px;
@@ -79,10 +78,11 @@ section#content {
       font-size: large;
       line-height: 1.5;
 }
-.page-footer {
+footer.page-footer {
       border: solid 1px black;
       background: lightgray;
       list-style-type:none;
+      font-style: italic;
 }
 
 /* the following is wrong, it's not showing correctly */
@@ -91,5 +91,5 @@ section#content {
       font-style:italic;
 }
 .page-credits {
-      font-style: italic;
+      font-style: bold;
 }

@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 body { 
-      background-image: url("Xanadu_on_Map_of_Asia.JPG");
+      background-image: relative("/images/Xanadu_on_Map_of_Asia.JPG");
       background-size: cover;
       font-family:serif;
       width: auto;

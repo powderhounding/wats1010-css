@@ -88,7 +88,7 @@ footer.page-footer {
 /* the following is wrong, it's not showing correctly */
 .citation {
       list-style-type:none;
-      font-style:italic;
+      font-style:none;
 }
 .page-credits {
       font-style: bold;
